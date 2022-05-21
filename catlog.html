@@ -83,21 +83,21 @@
                <ul class="catalog-filter-list">
                   <li class="catalog-filter-item">
                      <label class="control">
-                        <input class="control-input" type="radio" name="Hotel" checked>
+                        <input class="control-input" type="radio" name="product-group" value="Hotel" checked>
 
                         Гостиница
                      </label>
                   </li>
                   <li class="catalog-filter-item">
                      <label class="control">
-                        <input class="control-input" type="radio" name="motel">
+                        <input class="control-input" type="radio" name="product-group" value="motel">
 
                         Мотель
                      </label>
                   </li>
                   <li class="catalog-filter-item">
                      <label class="control">
-                        <input class="control-input" type="radio" name="apartments">
+                        <input class="control-input" type="radio" name="product-group" value="apartments">
 
                         Апартаменты
                      </label>
@@ -111,17 +111,105 @@
          </form>
       </section>
       <!-- Блок каталог гостинец   -->
-      <section class="sorting"></section>
-      <ul class="products">
-         <li></li>
-         <li></li>
-         <li></li>
-         <li></li>
-      </ul>
+      <section class="sorting">
+         <h2 class="hero-text">Найдено гостиниц: 38</h2>
+      </section>
+      <section class="sorting">
+         <option value="popular">Сначала популярное</option>
+         <option value="cheap">Сначала дешёвое</option>
+         <option value="expensive">Сначала дорогое</option>
+      </section>
+      <section class="sorting">
+         <a href="#" class="button button-light">
+            <span class="visually-hidden">Показать список</span>
+         </a>
+         <a class="button" href="#">
+            <span class="visually-hidden">Показать карточки</span>
+         </a>
+      </section>
+      <section class="product-cards">
+         <ul class="product-list">
+            <li class="product-card">
+               <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="" alt="">
+                  <h3 class="product-card-title">Amara Resort & Spa</h3>
+               </a>
+               <span class="product-card-price">От 4000 ₽</span>
+               <span class="product-card-view">Гостиница</span>
+               <a class="product-card-button button" href="#">подробнее</a>
+               <button class="button" type="submit">в избранное</button>
+               <!-- Рейтинг <span class="product-card-price">Звезды</span>-->
+               <!-- Рейтинг <span class="product-card-price"Оценка</span>-->
+            </li>
+            <li class="product-card">
+               <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="" alt="">
+                  <h3 class="product-card-title">Amara Resort & Spa</h3>
+               </a>
+               <span class="product-card-price">От 4000 ₽</span>
+               <span class="product-card-view">Гостиница</span>
+               <a class="product-card-button button" href="#">подробнее</a>
+               <button class="button" type="submit">в избранное</button>
+               <!-- Рейтинг <span class="product-card-price">Звезды</span>-->
+               <!-- Рейтинг <span class="product-card-price"Оценка</span>-->
+            </li>
+            <li class="product-card">
+               <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="" alt="">
+                  <h3 class="product-card-title">Amara Resort & Spa</h3>
+               </a>
+               <span class="product-card-price">От 4000 ₽</span>
+               <span class="product-card-view">Гостиница</span>
+               <a class="product-card-button button" href="#">подробнее</a>
+               <button class="button" type="submit">в избранное</button>
+               <!-- Рейтинг <span class="product-card-price">Звезды</span>-->
+               <!-- Рейтинг <span class="product-card-price"Оценка</span>-->
+            </li>
+            <li class="product-card">
+               <a class="product-card-link" href="#">
+                  <img class="product-card-image" src="" alt="">
+                  <h3 class="product-card-title">Amara Resort & Spa</h3>
+               </a>
+               <span class="product-card-price">От 4000 ₽</span>
+               <span class="product-card-view">Гостиница</span>
+               <a class="product-card-button button" href="#">подробнее</a>
+               <button class="button" type="submit">в избранное</button>
+               <!-- Рейтинг <span class="product-card-price">Звезды</span>-->
+               <!-- Рейтинг <span class="product-card-price"Оценка</span>-->
+            </li>
+         </ul>
+      </section>
+
    </main>
 
    <!-- Footer -->
-   <footer class="footer"></footer>
+   <footer class="footer">
+      <section class="footer-social">
+         <ul class="footer-social-list">
+            <li class="footer-social-item">
+               <a class="button" href="https://vk.com/htmlacademy">
+                  <span class="visually-hidden">ВКонтакте</span>
+               </a>
+            </li>
+            <li class="footer-social-item">
+               <a class="button" href="https://t.me/htmlacademy">
+                  <span class="visually-hidden">Telegram</span>
+               </a>
+            </li>
+            <li class="footer-social-item">
+               <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+                  <span class="visually-hidden">Youtube</span>
+               </a>
+            </li>
+         </ul>
+      </section>
+      <section class="footer-contacts-phone">
+         <a class="contacts-phone" href="tel:+78121212">+7 (812) 812-12-12</a>
+      </section>
+      <section class="footer-developer"></section>
+      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">html academy</a></p>
+      </section>
+   </footer>
 </body>
 
 </html>
