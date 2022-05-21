@@ -10,14 +10,14 @@
    <!-- Header -->
    <header class="page-header">
       <!-- Логотип -->
-      <a class="logo" href="#">
-         <img src="img/logo.svg" width="110" height="30" alt="Логотип компании ...">
+      <a class="header-logo" href="#">
+         <img src="img/header-logo.svg" width="110" height="30" alt="Логотип компании ...">
       </a>
       <!-- Список навигации -->
       <nav class="navigation">
          <ul class="navigation-list">
             <li class="navigation-item">
-               <a class="navigation-link" href="int">Главная</a>
+               <a class="navigation-link" href="#">Главная</a>
             </li>
             <li class="navigation-item">
                <a class="navigation-link" href="#">О Cедоне</a>
@@ -32,29 +32,92 @@
       <!-- Поиск -->
       <span><img src="#" alt="Поиск"></span>
       <!-- Кнопка -->
-      <button type="submit">Кнопка</button>
+      <a class=button" href="#">Хочу сюда</a>
    </header>
    <!-- Блок фильтр   -->
-   <main class="filter">
-      <div class="filter-contenr">
-         <header>
-            <h1>Гостиницы Седона</h1>
-         </header>
-      </div>
-      <div class="filter-filter-content">
-         <div class="left-filter-content"></div>
-         <div class="right-filter-content"></div>
-      </div>
-   </main>
-   <!-- Блок каталог гостинец   -->
-   <main class="catalog-catalog">
-      <div class="sorting"></div>
+   <main class="main-inner">
+      <header class="filter-contenr">
+         <h1 class="inner-header-title">Гостиницы Седона</h1>
+         <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+               <a class="breadcrumbs-link" href="index.html"> <img src="" width="110" height="30"
+                     alt="главная страница"></a>
+            </li>
+            <li class="breadcrumbs-item">
+               <a class="breadcrumbs-link">Гостиницы</a>
+            </li>
+         </ul>
+      </header>
+      <section class="catalog-products">
+         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+            <section class="catalog-filter-group">
+               <legend class="catalog-filter-title">Инфраструктура</legend>
+               <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="checkbox" name="swimming-pool" checked>
+
+                        Бассейн
+                     </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="checkbox" name="parking" checked>
+
+                        Парковка
+                     </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="checkbox" name="Wi-Fi">
+
+                        Wi-Fi
+                     </label>
+                  </li>
+               </ul>
+            </section>
+
+            <section class="catalog-filter-group">
+               <legend class="catalog-filter-title">Тип жилья:</legend>
+               <ul class="catalog-filter-list">
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="radio" name="Hotel" checked>
+
+                        Гостиница
+                     </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="radio" name="motel">
+
+                        Мотель
+                     </label>
+                  </li>
+                  <li class="catalog-filter-item">
+                     <label class="control">
+                        <input class="control-input" type="radio" name="apartments">
+
+                        Апартаменты
+                     </label>
+                  </li>
+               </ul>
+            </section>
+            <!-- ББегунок цена  -->
+            <section></section>
+            <button class="button" type="submit">Применить</button>
+            <button class="button-now" type="submit">Сбросить</button>
+         </form>
+      </section>
+      <!-- Блок каталог гостинец   -->
+      <section class="sorting"></section>
       <ul class="products">
          <li></li>
          <li></li>
          <li></li>
          <li></li>
-
+      </ul>
    </main>
 
    <!-- Footer -->
