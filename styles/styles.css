@@ -16,22 +16,20 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  background-color: #fbf7f4;
-}
-
-body {
-  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   color: #000000;
   background-color: #FFFFFF;
+
+}
+
+.hero{
+  text-align: center;
 }
 
 .page-header {
-  color: #000;
-  background-color: #fff;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .navigation-link {
@@ -43,14 +41,107 @@ body {
   font-size: 20px;
 }
 
-.hero{
-  text-align: center;
-}
-
 .hero-block{
   background-image: url("../images/welcome/index-background.jpg");
   color: #ffffff;
   background-color: #8d626c;
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
+
+.hero-text{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.hero-text-text{
+  font-family: "PT Sans", sans-serif;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+  .hero-paragraph{
+    font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  }
+
+  .advantages-title{
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .advantages-description{
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+.photo-block{
+  color: #FFFFFF;
+  background-color: #82b3d3;
+  text-align: center;
+}
+
+.second-block{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+  background-image: url("../images/house.svg");
+  background-size: 74px 72px;
+  background-repeat: no-repeat;
+}
+
+.third-block{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url("../images/food.svg");
+  background-size: 74px 70px;
+  background-repeat: no-repeat;
+}
+
+.fourth-block{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+  background-image: url("../images/souvenirs.svg");
+  background-size: 64px 76px;
+  background-repeat: no-repeat;
+}
+
+.block-of-two-advantages{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+}
+
+.advantage-block{
+  color: #000000;
+  background-color: #e6f0f6;
+  text-align: center;
+}
+
+.subscription{
+  background-image: url("../images/background.jpg");
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.contacts-phone{
+  font-family: "PT Sans", sans-serif;
+    font-size: 40px;
+    line-height: 40px;
 }
