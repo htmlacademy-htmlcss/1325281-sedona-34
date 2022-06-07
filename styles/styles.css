@@ -41,6 +41,16 @@ body {
   font-size: 20px;
 }
 
+.search{
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.like{
+  background-image: url("../images/favorite.svg");
+  background-repeat: no-repeat;
+}
+
 .hero-block{
   background-image: url("../images/welcome/index-background.jpg");
   color: #ffffff;
@@ -132,16 +142,37 @@ body {
   background-color: #82b3d3;
   background-size: 100% auto;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .footer{
   color: #000000;
   background-color: #ffffff;
-  text-align: center;
+
 }
 
 .contacts-phone{
   font-family: "PT Sans", sans-serif;
-    font-size: 40px;
-    line-height: 40px;
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
 }
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-search{
+  font-size: 20px;
+  line-height: 36px;
+}
+
