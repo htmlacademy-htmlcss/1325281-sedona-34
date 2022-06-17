@@ -32,7 +32,6 @@ body {
 }
 
 .main-container {
-
   width: 1199;
 }
 
@@ -245,6 +244,11 @@ body {
   background-color: #82b3d3;
   background-size: 100% auto;
   background-repeat: no-repeat;
+}
 
-
+.footer{
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    justify-content:space-between;
 }
