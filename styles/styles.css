@@ -14,7 +14,15 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -22,6 +30,12 @@ body {
   background-color: #FFFFFF;
 
 }
+
+.main-container {
+
+  width: 1199;
+}
+
 
 .hero{
   text-align: center;
@@ -32,6 +46,23 @@ body {
   background-color: #ffffff;
 }
 
+.navigation {
+  display: flex;
+  width: 893px;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 390px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 265px;
+  margin-left: auto;
+}
+
 .navigation-link {
   font-family: "PT Sans Narrow", sans-serif;
   line-height: 26px;
@@ -40,6 +71,37 @@ body {
   text-decoration: none;
   font-size: 20px;
 }
+
+.page-container {
+  width: 1056px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap:wrap;
+  width: 1200px;
+
+}
+
+.advantages-item {
+  width: 400px;
+}
+
+.photo-block{
+  width: 800px;
+}
+
 
 .search{
   background-image: url("../images/search.svg");
