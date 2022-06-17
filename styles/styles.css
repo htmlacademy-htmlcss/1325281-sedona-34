@@ -233,3 +233,18 @@ body {
   line-height: 36px;
 }
 
+.product-list{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.catalog-products{
+  background-image: url("../images/Fon.jpg");
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+
+
+}
