@@ -60,7 +60,6 @@
             </li>
           </ul>
         </fieldset>
-
         <fieldset class="catalog-filter-group">
           <legend class="catalog-filter-title">Тип жилья:</legend>
           <ul class="catalog-filter-list">
@@ -81,24 +80,30 @@
             </li>
           </ul>
         </fieldset>
-        <button class="button" type="submit">Применить</button>
-        <button class="button-reset" type="reset">Сбросить</button>
+        <div class="slider">
+        </div>
+        <div class="buttons">
+          <button class="button" type="submit">Применить</button>
+          <button class="button-reset" type="reset">Сбросить</button>
+        </div>
       </form>
     </section>
     <div class="page-container">
-      <section class="sorting">
-        <h2 class="hero-text">Найдено гостиниц:</h2>
-        <h2>38</h2>
+      <section class="sortong-container">
+        <div class="search-hero-text">
+          <h2 class="hero-text">Найдено гостиниц:</h2>
+          <h2 class="hero-text">38</h2>
+        </div>
         <select>
           <option value="cheap">Сначала дешёвое</option>
         </select>
-        <a href="#" class="button button-view">
+        <a href="#" class="button-view">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a href="#" class="button button-view">
+        <a href="#" class="button-view">
           <span class="visually-hidden">Показать презинтацию</span>
         </a>
-        <a href="#" class="button button-view">
+        <a href="#" class="button-view">
           <span class="visually-hidden">Показать список</span>
         </a>
       </section>
@@ -158,7 +163,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="another-page">
         <ul class="pagination">
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
@@ -179,13 +184,15 @@
             <a class="pagination-link" href="#">10</a>
           </li>
         </ul>
-        <p>Гостиниц на странице:</p>
-        <select>
-          <option value="cheap">4</option>
-        </select>
+        <div class="another-page">
+          <p>Гостиниц на странице:</p>
+          <select>
+            <option value="cheap">4</option>
+          </select>
+        </div>
       </section>
     </div>
-    <section class="subscription-catalog">
+    <section class="block-subscribe subscription-catalog">
       <h2 class="subscription-text">Подпишитесь на рассылку</h2>
       <p class="subscription-paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
         гостиниц в Седоне</p>
