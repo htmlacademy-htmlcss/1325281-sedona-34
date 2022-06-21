@@ -312,7 +312,11 @@ text-transform: uppercase;
   display: flex;
 }
 
-.catalog-products{
+.catalog-filter{
   display: flex;
   flex-direction:row ;
+  width: 1060px;
+  height: 149px;
+  margin-left: auto;
+  margin-right: auto;
 }
