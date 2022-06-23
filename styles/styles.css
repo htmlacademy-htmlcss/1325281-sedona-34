@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+  background-color: #f2f2f2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
+  justify-content: center;
+
+}
+
+.main-container {
+  width: 1199;
+}
+
+
+.hero{
+  text-align: center;
+}
+
+.header{
+  width: 1200px;
+  height: 65px;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  width: 893px;
+  margin: 0 auto;
+
+}
+
+.navigation-list {
+  width: 390px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content:space-around;
+}
+
+.navigation-user {
+  max-width: 265px;
+  margin-left: auto;
+}
+
+.navigation-link {
+  font-family: "PT Sans Narrow", sans-serif;
+  line-height: 26px;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  font-size: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.page-container {
+  width: 1056px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+}
+
+.advantages-list {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align: center;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap:wrap;
+  width: 1200px;
+
+}
+
+.advantages-item {
+  width: 400px;
+  display: flex;
+  flex-direction:column;
+  height: 384px;
+  justify-content: center;
+}
+
+.photo-block{
+  width: 800px;
+}
+
+
+.search{
+  background-image: url("../images/search.svg");
+  background-repeat: no-repeat;
+}
+
+.like{
+  background-image: url("../images/favorite.svg");
+  background-repeat: no-repeat;
+}
+
+.hero-block{
+  background-image: url("../images/welcome/index-background.jpg");
+  color: #ffffff;
+  background-color: #8d626c;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.hero-text{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  height: 417px;
+}
+
+.hotel-search{
+margin-top: 91px;
+font-family: 'PT Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+}
+
+.hero-text-text{
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  }
+
+  .hero-paragraph{
+  font-size: 20px;
+  line-height: 26px;
+  margin-top: 29px;
+  width: 592px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .advantages-title{
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+  }
+
+  .advantages-description{
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+.photo-block{
+  color: #FFFFFF;
+  background-color: #82b3d3;
+  text-align: center;
+}
+
+.second-block{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+  background-image: url("../images/house.svg");
+  background-size: 74px 72px;
+  background-repeat: no-repeat;
+}
+
+.third-block{
+  color: #000000;
+  background-color: #ffffff;
+  text-align: center;
+  background-image: url("../images/food.svg");
+  background-size: 74px 70px;
+  background-repeat: no-repeat;
+}
+
+.fourth-block{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+  background-image: url("../images/souvenirs.svg");
+  background-size: 64px 76px;
+  background-repeat: no-repeat;
+}
+
+.block-of-two-advantages{
+  color: #000000;
+  background-color: #f0f6fa;
+  text-align: center;
+}
+
+.advantage-block{
+  color: #000000;
+  background-color: #e6f0f6;
+  text-align: center;
+}
+
+.subscription{
+  background-image: url("../images/background.jpg");
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.contacts-phone{
+  font-size: 40px;
+  line-height: 40px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-search{
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 56px;
+  width: 574px;
+  height: 60px;
+}
+
+.product-list{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.catalog-products{
+  background-image: url("../images/Fon.jpg");
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.footer{
+  color: #000000;
+  background-color: #ffffff;
+    display: flex;
+    width: 1060px;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+.sortong-container{
+  display: flex;
+  justify-content:center;
+  width: 1060px;
+  height: 48px;
+}
+
+.pagination{
+  display: flex;
+}
+
+.another-page{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-subscribe{
+  width: 1200px;
+  height: 411px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.breadcrumbs{
+  display: flex;
+}
+
+.catalog-filter{
+  display: flex;
+  flex-direction:row ;
+  width: 1060px;
+  height: 149px;
+  margin-left: auto;
+  margin-right: auto;
+}
