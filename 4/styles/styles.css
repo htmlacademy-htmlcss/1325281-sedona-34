@@ -16,6 +16,7 @@
 
 html {
   height: 100%;
+  background-color: #f2f2f2;
 }
 
 body {
@@ -28,6 +29,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #FFFFFF;
+  justify-content: center;
 
 }
 
@@ -40,6 +42,11 @@ body {
   text-align: center;
 }
 
+.header{
+  width: 1200px;
+  height: 65px;
+}
+
 .page-header {
   color: #000000;
   background-color: #ffffff;
@@ -49,12 +56,15 @@ body {
   display: flex;
   width: 893px;
   margin: 0 auto;
+
 }
 
 .navigation-list {
   width: 390px;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content:space-around;
 }
 
 .navigation-user {
@@ -69,6 +79,8 @@ body {
   background-color: #ffffff;
   text-decoration: none;
   font-size: 20px;
+  flex-wrap: wrap;
+  list-style-type: none;
 }
 
 .page-container {
@@ -95,6 +107,10 @@ body {
 
 .advantages-item {
   width: 400px;
+  display: flex;
+  flex-direction:column;
+  height: 384px;
+  justify-content: center;
 }
 
 .photo-block{
@@ -124,6 +140,17 @@ body {
   color: #000000;
   background-color: #ffffff;
   text-align: center;
+  height: 417px;
+}
+
+.hotel-search{
+margin-top: 91px;
+font-family: 'PT Sans' sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
 }
 
 .hero-text-text{
@@ -135,6 +162,10 @@ body {
   .hero-paragraph{
   font-size: 20px;
   line-height: 26px;
+  margin-top: 29px;
+  width: 592px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
   .advantages-title{
@@ -202,12 +233,6 @@ body {
   text-align: center;
 }
 
-.footer{
-  color: #000000;
-  background-color: #ffffff;
-
-}
-
 .contacts-phone{
   font-size: 40px;
   line-height: 40px;
@@ -230,6 +255,9 @@ body {
 .button-search{
   font-size: 20px;
   line-height: 36px;
+  margin-top: 56px;
+  width: 574px;
+  height: 60px;
 }
 
 .product-list{
@@ -247,8 +275,48 @@ body {
 }
 
 .footer{
+  color: #000000;
+  background-color: #ffffff;
     display: flex;
     width: 1060px;
     margin: 0 auto;
     justify-content:space-between;
+}
+
+.sortong-container{
+  display: flex;
+  justify-content:center;
+  width: 1060px;
+  height: 48px;
+}
+
+.pagination{
+  display: flex;
+}
+
+.another-page{
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-subscribe{
+  width: 1200px;
+  height: 411px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.breadcrumbs{
+  display: flex;
+}
+
+.catalog-filter{
+  display: flex;
+  flex-direction:row ;
+  width: 1060px;
+  height: 149px;
+  margin-left: auto;
+  margin-right: auto;
 }
