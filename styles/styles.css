@@ -45,7 +45,6 @@ body {
 
 .navigation {
   display: flex;
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -60,11 +59,17 @@ body {
   padding: 0;
   display: flex;
   justify-content:space-around;
+  margin-right: 238px;
 }
 
 .navigation-user {
-  max-width: 265px;
-  margin-left: auto;
+  width: 267px;
+  display: flex;
+
+}
+
+.navigation-item{
+  display: block;
 }
 
 .navigation-link {
