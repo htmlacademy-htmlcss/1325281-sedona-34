@@ -66,11 +66,13 @@ body {
 .navigation-user {
   width: 267px;
   display: flex;
+  align-items:center;
 
 }
 
 .navigation-item{
   display: block;
+  width: 42px;
 }
 
 .navigation-link {
@@ -184,7 +186,6 @@ body {
   width: 654px;
   margin-left: auto;
   margin-right: auto;
-
   }
 
   .advantages-title{
@@ -277,19 +278,24 @@ body {
   margin-top: 56px;
   width: 574px;
   height: 60px;
+}
 
+.button-header{
+  width: 160px;
+  height: 37px;
+  margin-left: 20px;
 }
 
 .subscription-text{
-  width: 404px;
+  text-align: center;
   font-family: 'PT Sans', sans-serif;
   font-weight: bold;
   size: 30px;
   line-height: 36px;
   margin-left: auto;
   margin-right: auto;
-  text-transform: lowercase;
   padding-top: 94px;
+  text-transform: uppercase;
 }
 
 .subscription-paragraph{
@@ -297,7 +303,7 @@ body {
   margin-right: auto;
   font-family: 'PT Sans', sans-serif;
   padding-top: 29px;
-  width: 363px;
+  width: 475px;
 }
 
 .catalog-products{
@@ -317,11 +323,6 @@ body {
   justify-content:space-between;
   height: 120px;
   align-items:center;
-}
-
-.sortong-container{
-  display: ;
-
 }
 
 .pagination{
@@ -347,12 +348,16 @@ body {
 }
 
 .catalog-filter{
-  display: flex;
-  flex-direction:row ;
-  width: 1060px;
-  height: 149px;
-  margin-left: auto;
-  margin-right: auto;
+  display: grid;
+  grid-template-columns: 150px 148px 287px 160px;
+  grid-column-gap: 70px;
+  margin-left: 70px;
+}
+
+.catalog-filter-group{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
 }
 
 .visually-hidden {

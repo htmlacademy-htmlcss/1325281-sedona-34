@@ -95,6 +95,7 @@
             <div class="buttons">
               <button class="button" type="submit">Применить</button>
               <button class="button-reset" type="reset">Сбросить</button>
+            </div>
           </form>
         </div>
       </section>
@@ -127,9 +128,9 @@
               </a>
               <p class="product-card-view">Гостиница</p>
               <p class="product-card-price">От 4000 ₽</p>
-              <a class="product-card-button button" href="#">подробнее</a>
-              <a class="product-card-button button" href="#">в избранное</a>
-              <p class="star-rating">звезда</p>
+              <a class="product-card-button-more button" href="#">подробнее</a>
+              <a class="product-card-button-favorites button" href="#">в избранное</a>
+              <p class="star-rating visually-hidden">звезда</p>
               <p class="rating">Рейтинг: 8,5</p>
             </li>
             <li class="product-card">
@@ -140,9 +141,9 @@
               </a>
               <p class="product-card-view">Гостиница</p>
               <p class="product-card-price">От 5000 ₽</p>
-              <a class="product-card-button button" href="#">подробнее</a>
-              <a class="product-card-button button" href="#">в избранное</a>
-              <p class="star-rating">звезда</p>
+              <a class="product-card-button-more button" href="#">подробнее</a>
+              <a class="product-card-button-favorites button" href="#">в избранное</a>
+              <p class="star-rating visually-hidden">звезда</p>
               <p class="rating">Рейтинг: 9,2</p>
             </li>
             <li class="product-card">
@@ -153,9 +154,9 @@
               </a>
               <p class="product-card-view">Гостиница</p>
               <p class="product-card-price">От 2500 ₽</p>
-              <a class="product-card-button button" href="#">подробнее</a>
-              <a class="product-card-button button" href="#">в избранное</a>
-              <p class="star-rating">звезда</p>
+              <a class="product-card-button-more button" href="#">подробнее</a>
+              <a class="product-card-button-favorites button" href="#">в избранное</a>
+              <p class="star-rating visually-hidden">звезда</p>
               <p class="rating">Рейтинг: 6,9</p>
             </li>
             <li class="product-card">
@@ -166,9 +167,9 @@
               </a>
               <p class="product-card-view">Гостиница</p>
               <p class="product-card-price">От 1500 ₽</p>
-              <a class="product-card-button button" href="#">подробнее</a>
-              <a class="product-card-button button" href="#">в избранное</a>
-              <p class="star-rating">звезда</p>
+              <a class="product-card-button-more button" href="#">подробнее</a>
+              <a class="product-card-button-favorites button" href="#">в избранное</a>
+              <p class="star-rating visually-hidden">звезда</p>
               <p class="rating">Рейтинг: 5,0</p>
             </li>
           </ul>
@@ -204,11 +205,10 @@
       </div>
       <section class="block-subscribe subscription-catalog">
         <h2 class="subscription-text">Подпишитесь на рассылку</h2>
-        <p class="subscription-paragraph">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
-          гостиниц в Седоне</p>
+        <p class="subscription-paragraph">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input type="text" name="appointment-email" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться</button>
+          <input type="email" name="appointment-email" placeholder="Ваш e-mail">
+          <button class="button-form" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
