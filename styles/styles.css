@@ -55,19 +55,11 @@ body {
 }
 
 .navigation-list {
-  width: 390px;
-  margin: 0;
-  padding: 0;
   display: flex;
-  justify-content:space-around;
-  margin-right: 238px;
-}
-
-.navigation-user {
-  width: 267px;
-  display: flex;
-  align-items:center;
-
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 480px;
+  padding-left: 17px;
 }
 
 .navigation-item{
@@ -76,21 +68,32 @@ body {
 }
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
-  line-height: 26px;
-  background-color: #ffffff;
-  text-decoration: none;
-  font-size: 20px;
-  flex-wrap: wrap;
-  list-style-type: none;
-  display: block;
-  padding: 24px 15px;
-  font-weight: bold;
+  position: relative;
+}
+
+.link-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .link{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: capitalize;
   text-decoration: none;
   color: #000000;
+  text-align: center;
+  min-width: 42px;
+  min-height: 65px;
+}
+
+.link:hover{
+  opacity: 0.6;
+}
+
+.link:active {
+  opacity: 0.4;
 }
 
 .page-container {
@@ -196,6 +199,9 @@ body {
   .advantages-description{
   font-size: 18px;
   line-height: 21px;
+  width: 230px;
+  margin-left: auto;
+  margin-right: auto;
   }
 
 .photo-block{
@@ -229,6 +235,7 @@ body {
   background-image: url("../images/souvenirs.svg");
   background-size: 64px 76px;
   background-repeat: no-repeat;
+  background-position: 163px 80px;
 }
 
 .block-of-two-advantages{
@@ -258,6 +265,7 @@ body {
   text-decoration-line: underline;
   text-transform: uppercase;
   color: #000000;
+  text-decoration: none;
 }
 
 .button {
@@ -306,7 +314,7 @@ body {
 }
 
 .catalog-products{
-  background-image: url("../images/Fon.jpg");
+  background-image: url("../images/fon.jpg");
   color: #ffffff;
   background-color: #82b3d3;
   background-size: 100% auto;
@@ -370,11 +378,18 @@ body {
   overflow: hidden;
 }
 
-.cup{
-width:1200px ;
-margin-left: auto;
-margin-right: auto;
-background-color: #FFFFFF;
+.body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 .product-list {
@@ -409,5 +424,26 @@ background-color: #FFFFFF;
   font-weight: bold;
   size: 20px;
   line-height: 36px;
+}
 
+.footer-developer{
+  background: url("../images/footer/html_academy.svg") no-repeat;
+  overflow: hidden;
+  height: 0;
+  padding-top: 43px;
+  padding-right: 72px;
+}
+
+.footer-social{
+  overflow: hidden;
+  height: 0px;
+  padding-left: 72px;
+  background: url("../images/footer/vk.svg") no-repeat;
+}
+
+.htmlacademy-link{
+  padding: 115px 34px;
+}
+.button-social{
+  background-image: url("../images/footer/vk.svg") no-repeat;
 }
