@@ -303,10 +303,34 @@ link:focus {
   text-align: center;
   width: 1200px;
   background-color: #82B3D3;
-  background-image: url("../images/index/advantages-1.jpg");
+  background-image: url("../images/real-town.jpg");
   background-position: right;
   background-repeat: no-repeat;
   padding-top: 92px;
+}
+
+.advantages-item-second{
+  width: 1200px;
+  background-color: #82B3D3;
+  background-image: url("../images/real-canyon.jpg");
+  color: #FFFFFF;
+  text-align: center;
+  background-repeat: no-repeat;
+  padding-top: 92px;
+}
+
+.advantages-item{
+  text-align: center;
+  width: 400px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.advantages-item-present{
+  padding-top: 78px;
+  padding-bottom: 80px;
+  text-align: center;
+  width: 400px;
 }
 
 .advantages-real-city {
@@ -334,3 +358,74 @@ link:focus {
   margin: 0;
 }
 
+.background-grey{
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.item-icon{
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.background-house{
+  background-image: url("../images/house.svg");
+  width: 75px;
+  height: 72px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+
+.background-eat{
+  background-image: url("../images/food.svg");
+  width: 74px;
+  height: 70px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+
+.background-present {
+  background-image: url("../images/souvenirs.svg");
+  width: 64px;
+  height: 76px;
+  color: #000000;
+  background-repeat: no-repeat;
+}
+
+.advantages-item-title{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.advantages-item-with{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.advantages--bridge{
+  padding-left: 85px;
+  padding-bottom: 92px;
+  background-color: #82B3D3;
+  margin-left: 800px;
+  max-width: 230px;
+}
+
+.advantages-number-block{
+  margin-bottom: 30px;
+}
+
+.advantage-block{
+  text-align: center;
+  width: 400px;
+  padding-top: 102px;
+  padding-bottom: 102px;
+}
+
+.advantages-background-darkgrey{
+  background: rgba(131, 179, 211, 0.2);
+}
