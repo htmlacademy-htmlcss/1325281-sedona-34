@@ -73,64 +73,80 @@
   <main class="main-inner">
     <section class="catalog-products">
       <div>
-        <h1 class="inner-header-title">Гостиницы Седона</h1>
-        <ul class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link visually-hidden" href="index.html">Главная страница</a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Гостиницы</a>
-          </li>
-        </ul>
-      </div>
-      <div>
-        <h2 class="visually-hidden">Список товаров с фильтрами</h2>
-        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
                 <label class="control">
-                  <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн</label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="parking" checked>Парковка</label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi</label>
-              </li>
-            </ul>
-          </fieldset>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <ul class="catalog-filter-list">
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="product-group" value="Hotel" checked>Гостиница
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="product-group" value="motel">Мотель
-                </label>
-              </li>
-              <li class="catalog-filter-item">
-                <label class="control">
-                  <input class="control-input" type="radio" name="product-group" value="apartments">Апартаменты
-                </label>
-              </li>
-            </ul>
-          </fieldset>
+        <div>
+          <h1 class="inner-header-title">Гостиницы Седона</h1>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link visually-hidden" href="index.html">Главная страница</a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">
+                <svg class="breadcrumbs-link-icon breadcrumbs-icon-style" width="13" height="12" viewBox="0 0 13 12"
+                  fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="m6.11 0-6 5.8V12h12V5.8l-6-5.8Zm5 11h-10V6.2l5-4.8 5 4.8V11Z" />
+                  <path d="M4.11 10h1V7.5h2V10h1V6.5h-4V10Z" />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <img class="breadcrumbs-arrow-icon" src="images/catalog/arrow.svg" width="5" height="8"
+                alt="стрелка вправо">
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link breadcrumbs-item-style" href="catalog.html">Гостиницы</a>
+            </li>
+          </ul>
+        </div>
 
+        <div>
+          <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+          <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="swimming-pool" checked>Бассейн</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="parking" checked>Парковка</label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="checkbox" name="Wi-Fi">Wi-Fi</label>
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <ul class="catalog-filter-list">
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="Hotel" checked>Гостиница
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="motel">Мотель
+                  </label>
+                </li>
+                <li class="catalog-filter-item">
+                  <label class="control">
+                    <input class="control-input" type="radio" name="product-group" value="apartments">Апартаменты
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+        </div>
 
-          <div class="slider">
-          </div>
-          <div class="buttons">
-            <button class="button" type="submit">Применить</button>
-            <button class="button-reset" type="reset">Сбросить</button>
-          </div>
+        <div class="slider">
+        </div>
+        <div class="buttons">
+          <button class="button" type="submit">Применить</button>
+          <button class="button-reset" type="reset">Сбросить</button>
+        </div>
         </form>
       </div>
     </section>
