@@ -505,11 +505,22 @@ link:focus {
   color: #000000;
   background-color: #FFFFFF;
   background-repeat: no-repeat;
+
+}
+
+.subscription-catalog{
   background-image: url("../images/background.jpg");
 }
 
-.subscription-text{
+.block-index{
   color: #FFFFFF;
+}
+
+.block-catalog{
+  color: #000;
+}
+
+.subscription-text{
   margin: 0;
   margin-bottom: 29px;
   font-weight: 700;
@@ -521,7 +532,6 @@ link:focus {
 .subscription-paragraph{
   font-size: 22px;
   line-height: 26px;
-  color: #FFFFFF;
   margin: 0;
   margin-bottom: 46px;
 }
@@ -1029,4 +1039,248 @@ padding-top: 35px;
   line-height: 28px;
   color: #000000;
   margin: 0;
+}
+
+.card-hotel-price{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.card-hotel-price-item {
+  width: 140px;
+}
+
+.product-card-view{
+  margin: 0;
+}
+
+.product-card-price{
+  margin: 0;
+}
+
+.card-buttons-list{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-buttons-item{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  width: 140px;
+  height: 37px;
+  background-color: #756157;
+  border-radius: 4px;
+}
+
+.card-buttons-description{
+  margin: 0;
+  width: 110px;
+}
+
+.product-card-button-more{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 9px 15px 8px 15px;
+  background: #756157;
+  border-radius: 4px;
+}
+
+
+.product-card-button-favorites{
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+width: 140px;
+height: 37px;
+background: #82B3D3;
+border-radius: 4px;
+border: none;
+color: #FFFFFF;
+text-transform: uppercase;
+background: #82B3D3;
+}
+
+.card-rate-item {
+  display: flex;
+  align-items: center;
+}
+
+.card-rate-stars-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  gap: 6px;
+}
+
+.card-rate-item {
+  display: flex;
+  align-items: center;
+}
+
+.card-rate-item-box {
+  font-size: 16px;
+  line-height: 20px;
+  color: #333333;
+  text-transform: uppercase;
+  background: #F2F2F2;
+  text-align: center;
+  width: 140px;
+  padding: 9px 0 8px 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-rate-count {
+  margin: 0;
+}
+
+.card-rate {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination{
+  padding: 0;
+  margin: 0 auto;
+  width: 1056px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+
+.pagination-pages-list {
+  list-style-type: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+}
+
+.pagination-pages-item{
+  background-color: #82B3D3;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.pagination-link{
+  display: block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-transform: uppercase;
+  width: 60px;
+  padding: 12px 0;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.button-blue {
+  background: #82B3D3;
+  color: #FFFFFF;
+
+}
+
+.button-blue:hover {
+  background: #68A2CA;
+  color: #FFFFFF;
+}
+
+.button-blue:focus {
+  background: #68A2CA;
+  box-shadow: inset 0 0 0 4px;
+  color: #FFFFFF;
+  outline: none;
+}
+
+.button-blue:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
+}
+
+.button-blue:disabled {
+  background: #E5E5E5;
+  color: #FFFFFF;
+}
+
+.button-one{
+  background: #F2F2F2;
+  color: #000000;
+}
+
+.pagination-item{
+  display: flex;
+  align-items: center;
+  background-color: #82B3D3;
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  justify-content: center;
+}
+
+.pagination-count{
+  display: flex;
+  justify-content: space-between;
+  min-width: 386px;
+}
+
+.pagination-count-description {
+  margin-top: 20px;
+}
+
+.pagination-count-select {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  width: 160px;
+  height: 49px;
+  margin: auto 0;
+  border: 2px solid #E5E5E5;
+  border-radius: 4px;
+  padding-left: 20px;
+  appearance: none;
+  overflow: hidden;
+  background: url('../images/catalog/caret.svg') no-repeat;
+  background-position: 88% 45%;
+}
+
+.pagination-count-select:hover {
+  border-color: #68A2CA;
+}
+
+.pagination-count-select:focus {
+  outline: none;
+  border-color: #68A2CA;
+}
+
+.pagination-count-select:active {
+  border-color: #3F5E72;
+}
+
+.pagination-count-select:disabled {
+  opacity: 0.3;
 }
