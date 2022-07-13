@@ -63,9 +63,10 @@
           </div>
         </li>
       </ul>
-      <li>
-        <button class="button button-header" type="button">Хочу сюда</button>
-      </li>
+      <ul>
+        <li>
+          <button class="button button-header" type="button">Хочу сюда</button>
+        </li>
       </ul>
     </nav>
   </header>
@@ -96,13 +97,15 @@
                     Настоящий<br> городок
                   </h3>
                   <p class="advantages-room">— №1 —</p>
-                  <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+                  <p class="advantages-description">Седона — не аттракцион для туристов, там течёт своя жизнь
+                  </p>
                 </div>
               </li>
               <li class="advantages-item background-grey">
                 <div class="background-house item-icon"></div>
                 <h3 class="advantages-item-title">Жильё</h3>
-                <p class="advantages-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!</p>
+                <p class="advantages-description">Рекомендуем пожить<br> в настоящем мотеле,<br> всё как в кино!
+                </p>
               </li>
               <li class="advantages-item">
                 <div class="background-eat item-icon"></div>
@@ -114,7 +117,8 @@
               <li class="advantages-item-present background-grey">
                 <div class="background-present item-icon"></div>
                 <h3 class="advantages-item-title">Сувениры</h3>
-                <p class="advantages-description">Не только китайского,<br> но и настоящего местного<br> производства!
+                <p class="advantages-description">Не только китайского,<br> но и настоящего местного<br>
+                  производства!
                 </p>
               </li>
             </ul>
@@ -127,7 +131,8 @@
                   <div class="advantages-number-block">
                     <p>— №2 —</p>
                   </div>
-                  <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь, разумеется</p>
+                  <p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,
+                    разумеется</p>
                 </div>
               </li>
             </ul>
@@ -157,7 +162,8 @@
       </section>
       <section class="hotel-search">
         <h2 class="hotel-search-title">Заинтересовались?</h2>
-        <p class="hotel-paragraph">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц
+        <p class="hotel-paragraph">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
+          гостиниц
           в
           Седоне</p>
         <div class="hotel-link-box">
@@ -168,7 +174,8 @@
       </section>
       <section class="block-subscribe subscription-catalog">
         <h2 class="subscription-text block-index">Подпишитесь на рассылку</h2>
-        <p class="subscription-paragraph block-index">Только полезная информация и никакого спама, честное бойскаутское!
+        <p class="subscription-paragraph block-index">Только полезная информация и никакого спама, честное
+          бойскаутское!
         </p>
         <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" type="email" name="appointment-email" placeholder="Ваш e-mail">
@@ -230,6 +237,89 @@
       </a>
     </div>
   </footer>
+
+  <div class="popup-window">
+    <div class="popup-search">
+      <button class="popup-close-button">
+        <span class="visually-hidden">Закрыть</span>
+      </button>
+      <section class="popup-window">
+        <h2 class="popup-title">Поиск гостиницы в Седоне</h2>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <div class="popup-line popup-descr">
+            <label class="popup-label">
+              <span class="popup-text-choice">Дата заезда:</span>
+              <input class="popup-data" name="day-in" type="text" placeholder="Укажите дату"
+                onfocus="(this.type='date')" onblur="(this.type='text')" required> </label>
+            <p class="popup-date-announce popup-error">Мы не можем отправить вас в прошлое.</p>
+          </div>
+          <div class="popup-line popup-descr">
+            <label class="popup-label">
+              <span class="popup-text-choice">Даты Выезда:</span>
+              <input class="popup-data" name="day-out" type="text" placeholder="Укажите дату"
+                onfocus="(this.type='date')" onblur="(this.type='text')" required></label>
+            <p class="popup-date-announce free-date">На эти даты есть свободные номера. Пока есть.</p>
+          </div>
+          <div class="popup-line popup-label">
+            <div class="popup-box">
+              <label for="popup-input-adults">
+                <span class="popup-text-choice">Взрослые:</span>
+              </label>
+              <div class="popup-number-button-block">
+                <button class="number-button number-button-min">
+                  <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 0v1h13V0H0Z" fill="#000" />
+                  </svg>
+                </button>
+                <input class="number-input adults-input" id="popup-input-adults" type="number" name="count-popup"
+                  min="0" max="99" step="1" value="1">
+                <button class="number-button number-button-max" type="button">
+                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div class="popup-kids-block">
+              <div class="popup-kids-box">
+                <label class="label-kids" for="popup-imput-kids">
+                  <span class="popup-text-kids">Дети:</span>
+                </label>
+                <div class="popup-button-wrapper">
+                  <button class="popup-kids-button" type="button">
+                  </button>
+                  <div class="popup-info">
+                    <div>
+                      <p class="popup-info-text">
+                        Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети
+                        до 6 лет размещаются бесплатно.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="popup-number-button-block">
+                  <button class="number-button number-button-min" type="button">
+                    <svg width="13" height="1" viewBox="0 0 13 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 0v1h13V0H0Z" fill="#000" />
+                    </svg>
+                  </button>
+                  <input class="popup-kids-input" id="popup-imput-kids" name="count-kids" type="number" min="0" max="99"
+                    step="1" value="0">
+                  <button class="number-button number-button-max" type="button">
+                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M13 6H7V0H6v6H0v1h6v6h1V7h6V6Z" fill="#000" />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="popup-button-find">Найти</button>
+        </form>
+      </section>
+    </div>
+  </div>
+
 </body>
 
 </html>
