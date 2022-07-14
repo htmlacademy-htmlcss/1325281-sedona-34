@@ -1402,13 +1402,32 @@ input[type=date]::-webkit-calendar-picker-indicator {
   background-color: #E6E6E6;
   box-shadow: inset 0 0 0 3px #83B3D3;
   outline: none;
+  -webkit-box-shadow: inset 0 0 0 3px #83b3d3;
 }
 
 .popup-data:active {
-  background: #FFFFFF;
+    background: #ffffff;
+    -webkit-box-shadow: inset 0 0 0 2px #000000;
+    box-shadow: inset 0 0 0 2px #000000;
+    outline: none;
+    opacity: 1;
+    outline: 2px solid #000000;
+}
+
+.popup-data:not(:-moz-placeholder-shown) {
+  background: #ffffff;
   box-shadow: inset 0 0 0 2px #000000;
   outline: none;
   opacity: 1;
+}
+
+.popup-data:not(:-ms-input-placeholder) {
+  background: #ffffff;
+  box-shadow: inset 0 0 0 2px #000000;
+  outline: none;
+  opacity: 1;
+  background: #e6e6e6;
+  outline: 3px solid #83b3d3;
 }
 
 .popup-date-announce{
