@@ -1428,6 +1428,7 @@ input[type=date]::-webkit-calendar-picker-indicator {
   opacity: 1;
   background: #e6e6e6;
   outline: 3px solid #83b3d3;
+
 }
 
 .popup-date-announce{
