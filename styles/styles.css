@@ -33,7 +33,7 @@ body {
 
 }
 
-li {
+.list-style{
   list-style-type: none;
 }
 
@@ -1623,7 +1623,6 @@ input[type=date]::-webkit-calendar-picker-indicator {
   margin: 0;
   border: 0;
   min-height: 60px;
-  font-family: 'PT Sans';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
